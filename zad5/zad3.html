@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox one example</title>
+</head>
+<style>
+    .row{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .equal-width {
+        text-align: center;
+        background-color: lightblue;
+        width: 100%;
+        margin: 10px;
+        padding: 20px;
+    }
+    .row2{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .fixed-percentage {
+        width: 40%;
+        text-align: center;
+        background-color: lightblue;
+        margin: 0;
+        margin-left: 10px;
+        padding: 20px;
+    }
+
+    .flexible {
+        width: 60%;
+        text-align: center;
+        background-color: lightblue;
+        margin: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 20px;
+    }
+</style>
+<body>
+<div class="row">
+    <div class="equal-width ">Element 1</div>
+    <div class="equal-width ">Element 2</div>
+    <div class="equal-width ">Element 3</div>
+</div>
+    <div class="row2">
+<div class="fixed-percentage ">Element 4</div>
+<div class="flexible">Element 5</div>
+    </div>
+</body>
+</html>

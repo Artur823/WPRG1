@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .flex-container{
+            display: flex;
+            padding: 15px;
+
+            height: 250px;
+            border: 2px solid black;
+        }
+        .column{
+            text-align: center;
+            width: 100%;
+            margin: 10px;
+            background-color: lightblue;
+        }
+        .box{
+            background-color: lightblue;
+            text-align: center;
+            margin: 10px;
+            margin-top: 170px;
+            margin-bottom: 170px;
+            height: max-content;
+            width: max-content;
+            padding: 10px;
+
+        }
+        .flex-container2{
+            margin-top: 10px;
+            width: 100%;
+            height: auto;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<div class="flex-container">
+    <element class="column">Kolumna 1</element>
+    <element class="column">Kolumna 2</element>
+    <element class="column">Kolumna 3</element>
+</div>
+<div class="flex-container2">
+    <element class="box">Element 1</element>
+    <element class="box">Element 2</element>
+    <element class="box">Element 3</element>
+</div>
+</body>
+</html>
