@@ -1,0 +1,3 @@
+http://example.com/;Example Website
+http://google.com/;Google
+http://openai.com/;OpenAI
